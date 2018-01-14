@@ -1,0 +1,6 @@
+---
+  - hosts: control
+    become: true
+    roles:
+      - control
+   
